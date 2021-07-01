@@ -1,0 +1,52 @@
+*{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.heading {
+    color: #111827;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 365px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #505050;
+}
+
+input {
+    margin: 3px;
+    width: 350px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #9CA3AF;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+
+
+p {
+    margin: 0;
+    color: #DC2626;
+    margin-bottom: 15px;
+}
+
+#submit-form {
+    font-size: 17px;
+    padding: 9px;
+    background-color: #121212;
+    color: white;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+label {
+    font-size: large;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+    <form class="container" action="#" onsubmit="return false;">
+        <h1 class="heading">Sign Up</h1>
+        <label for="name">Name</label>
+        <input type="text" id="name" onchange="validName()" required>
+        <p id=name-p></p>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" required>
+        <p id="email-p"></p>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" onchange="validPassword()" required>
+        <p id="password-p"></p>
+
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" id="confirm-password" onchange="validPassword1()" required>
+        <p id="confirm-password-p"></p>
+
+        <button type="submit" id="submit-form" onclick="formSubmit()">Submit</button>
+    </form>
+</body>
+
+</html>
